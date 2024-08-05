@@ -52,7 +52,7 @@ public class ListMaker {
                     break;
                 case "Q":
                     done = SafeInput.getYNConfirm(in, "List will be lost.  Are you sure?");
-                    break;  // I don't need this
+                    // break;  // I didn't need this one
             }
 
         }while(!done);
